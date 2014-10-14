@@ -1,14 +1,15 @@
 langs_ruby
 ==========
 
-The languages.json is a custom made file which contains languages from languages_orig.json that are living and have iso_639_2 standard defined.
+Using ruby for taking care of small json file operations.
+
+The languages.json is a custom made file which contains languages in format of a single object literal (in JS Object Notation) from languages_orig.json that are living and have iso_639_2 standard defined.
 
 cd to dir and type `ruby convert.rb`
 
 OR
 
-Ruby commands to make the new file out of the original:
-(cd to the directory and type irb to open ruby console)
+Cd to the directory and type `irb` to open ruby console
 
 Two liner:
 ```
